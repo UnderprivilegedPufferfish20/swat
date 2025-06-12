@@ -9,5 +9,5 @@ export default auth((req:any) => {
 });
 
 export const config = {
-  matcher: ["/protected/:path*"],
+  matcher: ["/dashboard/:path*"], // Make sure dashboard is protected
 };
